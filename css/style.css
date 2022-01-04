@@ -7,6 +7,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -16,7 +17,7 @@ section{
 .half-width img{
     width: 85%;
 }
-.hire-btn{
+.link-btn{
     text-decoration: none;
     background-image: linear-gradient(45deg,#af1bff, #8633ff);
     padding: 10px 40px;
@@ -27,4 +28,9 @@ section{
 .top-sec{
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
+}
+.mid-sec{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
