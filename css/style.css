@@ -40,6 +40,12 @@ body{
     background-repeat: no-repeat;
     color: white;
 }
+#topp{
+    margin-bottom: 40px;
+}
+.topleft{
+    margin-top: 75px;
+}
 .dp{
     transition-duration: 1s;
 }
@@ -52,7 +58,7 @@ body{
     transition-duration: 1s;
 }
 .experience-item{
-    box-shadow: 10px 10px 40px grey;
+    box-shadow: 1px 1px 20px grey;
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
@@ -61,6 +67,7 @@ body{
 }
 .experience-area{
     background-image: url(../images/exp-bg.png);
+    background-size: 5%;
     background-position: left;
     background-repeat: no-repeat;
     margin-top: 150px;
